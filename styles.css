@@ -10,11 +10,19 @@
     box-sizing: inherit;
 }
 
+html {
+    height: 100%;
+    background: linear-gradient(rgb(106, 18, 18), rgb(34, 34, 63));
+    background-repeat: no-repeat;
+    background: -moz-linear-gradient(rgb(106, 18, 18), rgb(34, 34, 63));
+    background: -webkit-linear-gradient(rgb(106, 18, 18), rgb(34, 34, 63));
+    background-attachment: fixed;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--page-color);
     color: var(--font-color);
-    background-image: linear-gradient(rgb(106, 18, 18), rgb(34, 34, 63));
+    height: 100%;
 }
 
 #portfolio {
@@ -55,7 +63,7 @@ body {
     padding-left: 0;
 }
 
-.contact-links__resume{
+.contact-links__resume {
     margin-left: auto;
 }
 
